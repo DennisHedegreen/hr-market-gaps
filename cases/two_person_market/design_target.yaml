@@ -1,0 +1,8 @@
+case_id: market-gap-002-two-person-market
+label: "Market Gap 002 — The Two-Person Market"
+status: design_only
+kind: network_market
+note: >-
+  Portability target only. This file intentionally contains no fabricated
+  economics. The next engine extension must model a network of independent
+  producers/entities with separate books, shared market flows and evidence gates.

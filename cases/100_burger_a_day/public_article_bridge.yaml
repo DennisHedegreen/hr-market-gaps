@@ -1,0 +1,59 @@
+case_id: market-gap-001-100-burger-a-day
+label: Market Gap 001 — 100 Burger a Day
+currency: DKK
+evidence_maturity: M2/P0
+
+# Public design surface, v1.1. These are model inputs, not observed operation.
+sales_cap_per_open_day: '100'
+planned_sales_per_open_day: '100'
+opening_days_per_week: '5'
+sale_price_gross: '99'
+tax_rate: '0.25'
+non_primary_cost_per_sale: '18'
+
+# Public whole-input arithmetic: ~400 saleable planning units per source unit.
+saleable_primary_units_per_source_unit: '400'
+# 235 kg aggregate edible pool - 58 kg primary blend = 177 kg secondary/source unit.
+secondary_output_units_per_source_unit: '177'
+secondary_output_unit_label: kg
+# No real secondary sell-through is claimed in the public case.
+secondary_net_contribution_per_unit: '0'
+secondary_channel_evidence_state: HYPOTHESIS
+
+# Article-only bridge calibration.
+# At 500 sales/week, 99 DKK incl VAT, 18 DKK non-primary cost/sale and
+# ~221.25 kg secondary output/week, the published break-even threshold is
+# ~78.3 DKK/kg. The public article does not expose the full decomposition of
+# whole-input landed cost + owner labour + support + other variable + fixed.
+# This residual makes the bridge reproduce that published threshold exactly.
+# Codex should replace it with the Public Data Pack's full ledger before this
+# case is treated as parity-complete.
+calibrated_other_weekly_costs: '47923.875'
+calibration_reference_sales_week: '500'
+calibration_reference_required_secondary_per_unit: '78.3'
+calibration_evidence_state: FORMULA
+
+# Published supplier-payment scenario (~15.52k baseline; +15% => +2,328).
+supplier_reference_payment_per_source_unit: '15520'
+supplier_payment_per_source_unit: '17848'
+supplier_incremental_obligation_cost_per_source_unit: null
+supplier_obligation_evidence_state: BLOCKED
+
+operator_count: 2
+human_time_target_hours_per_person_week: null
+observed_total_human_hours_week: null
+human_time_evidence_state: BLOCKED
+
+peak_throughput_target_per_hour: '50'
+observed_peak_throughput_per_hour: null
+throughput_evidence_state: DESIGN_TARGET
+
+coordination_failure_threshold_minutes_week: null
+observed_coordination_minutes_week: null
+coordination_evidence_state: BLOCKED
+
+source_url: https://hedegreenresearch.com/articles/100-burger-a-day/
+source_version: v1.1
+note: >-
+  Public-article bridge only. The source article says M2/P0: inspectable design,
+  not operating proof. Full parity requires ingestion of the Public Data Pack v1.1.

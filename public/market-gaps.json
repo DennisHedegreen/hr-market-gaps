@@ -1,0 +1,304 @@
+{
+  "schema_version": "hr.market-gap-registry/0.1",
+  "slug": "market-gaps",
+  "title": "Market Gaps",
+  "objects": [
+    {
+      "hr_id": "hr.market-gap-case.0001",
+      "case_id": "Market Gaps 001",
+      "slug": "100-burger-a-day",
+      "title": "100 Burger a Day",
+      "kind": "market_gap_case",
+      "maturity": "M2/P0",
+      "status": "public_test",
+      "published_at": "2026-08-11T00:44:14+02:00",
+      "summary": "A capped 100-burger-per-day, whole-animal, farmer-linked restaurant design at M2/P0 maturity. v1.1 clarifies evidence language and figures without upgrading the case.",
+      "boundaries": [
+        "Not an operating restaurant, franchise offer, validated model, or launch announcement.",
+        "v1.1 clarifies evidence labels and figures; it does not upgrade claim status.",
+        "K1 remains OPEN / CONDITIONAL; K2 and K3 remain OPEN.",
+        "Publication makes the structure inspectable; it does not prove commercial viability."
+      ],
+      "links": [
+        {
+          "label": "Read article",
+          "href": "/articles/100-burger-a-day/"
+        },
+        {
+          "label": "Open fixed PDF record in Camelot",
+          "href": "/assets/camelot/reports/market-gaps/100-burger-a-day/market-gaps__dk__2026-08__i001__v1-1__draft.pdf",
+          "secondary": true
+        },
+        {
+          "label": "Download public data pack v1.1",
+          "href": "/assets/downloads/100-burger-a-day/100BAD_Public_Data_Pack_v1.1.zip",
+          "download": true,
+          "secondary": true
+        }
+      ],
+      "data_collections": [
+        {
+          "title": "Claim boundaries and evidence",
+          "description": "What the case claims, what it does not claim, and what evidence would be needed to strengthen it.",
+          "files": [
+            {
+              "label": "Publication boundary",
+              "filename": "publication_boundary.md",
+              "href": "/assets/market-gaps/100-burger-a-day/01_EVIDENCE/publication_boundary.md",
+              "note": "Scope and limits of the public case."
+            },
+            {
+              "label": "Evidence claim register",
+              "filename": "evidence_claim_register_v0.1.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/01_EVIDENCE/evidence_claim_register_v0.1.csv",
+              "note": "Claim-by-claim evidence status."
+            },
+            {
+              "label": "Claim language rules",
+              "filename": "claim_language_rules_v0.1.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/01_EVIDENCE/claim_language_rules_v0.1.csv",
+              "note": "Permitted wording at each evidence level."
+            },
+            {
+              "label": "Claim upgrade plan",
+              "filename": "claim_upgrade_plan_v0.1.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/01_EVIDENCE/claim_upgrade_plan_v0.1.csv",
+              "note": "What would be required to upgrade a claim."
+            },
+            {
+              "label": "Sources",
+              "filename": "sources.md",
+              "href": "/assets/market-gaps/100-burger-a-day/01_EVIDENCE/sources.md",
+              "note": "Source list used by the case."
+            }
+          ]
+        },
+        {
+          "title": "Economics and failure conditions",
+          "description": "The assumptions, break-even surfaces and explicit conditions under which the model should stop.",
+          "files": [
+            {
+              "label": "Farmer economics",
+              "filename": "farmer_economics_v0.1.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/02_ECONOMICS/farmer_economics_v0.1.csv",
+              "note": "Farmer-linked economic assumptions."
+            },
+            {
+              "label": "Farmer price benchmark",
+              "filename": "farmer_price_benchmark_week33_2026.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/02_ECONOMICS/farmer_price_benchmark_week33_2026.csv",
+              "note": "Benchmark inputs used for the current reading."
+            },
+            {
+              "label": "Kill-condition thresholds",
+              "filename": "gate_25_3_kill_condition_thresholds_v0.1.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/02_ECONOMICS/gate_25_3_kill_condition_thresholds_v0.1.csv",
+              "note": "Conditions that should halt or challenge the model."
+            },
+            {
+              "label": "Break-even surface",
+              "filename": "gate_25_3_unified_break_even_surface_v0.1.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/02_ECONOMICS/gate_25_3_unified_break_even_surface_v0.1.csv",
+              "note": "Inspectable break-even scenarios."
+            },
+            {
+              "label": "Weekly ledger example",
+              "filename": "gate_25_3_unified_weekly_ledger_example_v0.1.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/02_ECONOMICS/gate_25_3_unified_weekly_ledger_example_v0.1.csv",
+              "note": "One illustrative weekly ledger."
+            },
+            {
+              "label": "Economic model",
+              "filename": "economic_model_v0_1.py",
+              "href": "/assets/market-gaps/100-burger-a-day/09_TOOLS/economic_model_v0_1.py",
+              "note": "Inspectable calculation code; not a forecast."
+            }
+          ]
+        },
+        {
+          "title": "Operations and pilot design",
+          "description": "The operational assumptions and the templates needed to test them in a real kitchen.",
+          "files": [
+            {
+              "label": "Operator hours",
+              "filename": "operator_hours_v0.1.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/03_OPERATIONS/operator_hours_v0.1.csv",
+              "note": "Operator-time assumptions."
+            },
+            {
+              "label": "Time and motion log",
+              "filename": "day_001_time_and_motion.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/03_OPERATIONS/day_001_time_and_motion.csv",
+              "note": "Structure for recording a service day."
+            },
+            {
+              "label": "One-operator simulation",
+              "filename": "dry_run_001_one_operator_sim.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/03_OPERATIONS/dry_run_001_one_operator_sim.csv",
+              "note": "Dry-run scenario with one operator."
+            },
+            {
+              "label": "Two-operator simulation",
+              "filename": "dry_run_001_two_operator_sim.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/03_OPERATIONS/dry_run_001_two_operator_sim.csv",
+              "note": "Dry-run scenario with two operators."
+            },
+            {
+              "label": "Kitchen-pilot protocol",
+              "filename": "kitchen_pilot_001_protocol.md",
+              "href": "/assets/market-gaps/100-burger-a-day/04_PILOT/kitchen_pilot_001_protocol.md",
+              "note": "Protocol for a bounded kitchen test."
+            },
+            {
+              "label": "Pilot result template",
+              "filename": "kitchen_pilot_001_result_template.md",
+              "href": "/assets/market-gaps/100-burger-a-day/04_PILOT/kitchen_pilot_001_result_template.md",
+              "note": "Template for recording the result."
+            }
+          ]
+        },
+        {
+          "title": "Supply, coordination and replication",
+          "description": "The coordination work around suppliers and the conditions for a later independent repeat.",
+          "files": [
+            {
+              "label": "Supply-node interfaces",
+              "filename": "supply_node_interfaces_v0.1.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/05_SUPPLY/supply_node_interfaces_v0.1.csv",
+              "note": "The supplier relationships the design assumes."
+            },
+            {
+              "label": "Fallback matrix",
+              "filename": "node_fallback_matrix_v0.1.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/05_SUPPLY/node_fallback_matrix_v0.1.csv",
+              "note": "Fallbacks when a supply node fails."
+            },
+            {
+              "label": "Coordination cost gate",
+              "filename": "coordination_cost_gate.md",
+              "href": "/assets/market-gaps/100-burger-a-day/06_COORDINATION/coordination_cost_gate.md",
+              "note": "Conditions for coordination to remain viable."
+            },
+            {
+              "label": "Coordination time budget",
+              "filename": "coordination_time_budget_v0.1.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/06_COORDINATION/coordination_time_budget_v0.1.csv",
+              "note": "Time budget behind the coordination layer."
+            },
+            {
+              "label": "Coordination gate targets",
+              "filename": "coordination_gate_targets.json",
+              "href": "/assets/market-gaps/100-burger-a-day/06_COORDINATION/coordination_gate_targets.json",
+              "note": "Machine-readable coordination gate targets."
+            },
+            {
+              "label": "Commons constitution skeleton",
+              "filename": "commons_constitution_skeleton_v0.1.md",
+              "href": "/assets/market-gaps/100-burger-a-day/07_GOVERNANCE_REPLICATION/commons_constitution_skeleton_v0.1.md",
+              "note": "Draft governance structure."
+            },
+            {
+              "label": "Replication independence scorecard",
+              "filename": "replication_independence_scorecard_v0.1.csv",
+              "href": "/assets/market-gaps/100-burger-a-day/07_GOVERNANCE_REPLICATION/replication_independence_scorecard_v0.1.csv",
+              "note": "Checks for a later independent repeat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hr_id": "hr.market-gap-case.0002",
+      "case_id": "Market Gaps 002",
+      "slug": "the-two-person-market",
+      "title": "The Two-Person Market",
+      "kind": "market_gap_case",
+      "maturity": "M2/P0",
+      "status": "local_release_candidate",
+      "published_at": "",
+      "summary": "A 26-gate working architecture for a market that can add independent producers without requiring every successful company to become a larger organisation.",
+      "boundaries": [
+        "Not an operating network, franchise offer, investment offer, validated business model or launch announcement.",
+        "The working calculations expose assumptions and failure conditions; they are not forecasts or observed commercial results.",
+        "Two core livelihoods is a stress test, not a claim that two people are an optimal company size.",
+        "The separate apple edge is not evidence for or against the general FAF architecture.",
+        "Publication makes the model inspectable; it does not establish legal, tax, equipment, demand or economic validity for a real deployment."
+      ],
+      "links": [
+        {
+          "label": "Read The Two-Person Market article",
+          "href": "/articles/the-two-person-market/"
+        },
+        {
+          "label": "Download all working material — 108 files (ZIP)",
+          "href": "/assets/downloads/the-two-person-market/The_Two_Person_Market_Public_Working_Materials_v0.1.zip",
+          "download": true,
+          "secondary": true
+        }
+      ],
+      "data_collections": [
+        {
+          "title": "Boundary and claim map",
+          "description": "Start here: the case boundary, an AI reading guide, claim-level reading and the current editorial source-check limits.",
+          "files": [
+            {"label": "AI reading guide", "filename": "AI-READING-GUIDE.md", "href": "/assets/market-gaps/the-two-person-market/AI-READING-GUIDE.md", "note": "How to inspect the package with AI without turning assumptions into conclusions."},
+            {"label": "Public working-material README", "filename": "README.md", "href": "/assets/market-gaps/the-two-person-market/README.md", "note": "How to read the material without treating it as validation."},
+            {"label": "Claim map", "filename": "claims.md", "href": "/assets/market-gaps/the-two-person-market/claims.md", "note": "What is architectural, speculative, missing or explicitly not claimed."},
+            {"label": "Editorial source boundary", "filename": "source-check.md", "href": "/assets/market-gaps/the-two-person-market/source-check.md", "note": "Why the article and case remain OPEN rather than empirical results."},
+            {"label": "Sources and research pointers", "filename": "sources.md", "href": "/assets/market-gaps/the-two-person-market/sources.md", "note": "Working source list and pointers; not a completed external validation set."}
+          ]
+        },
+        {
+          "title": "Viability, variety and demand",
+          "description": "Working thresholds and sensitivity tests for labour, variety, exchange, distance and demand.",
+          "files": [
+            {"label": "Gate 1 labour thresholds", "filename": "gate1-labour-thresholds.csv", "href": "/assets/market-gaps/the-two-person-market/model/gate1-labour-thresholds.csv", "note": "Working labour-capacity thresholds; not observed staffing performance."},
+            {"label": "Gate 1 sensitivity", "filename": "gate1-sensitivity.csv", "href": "/assets/market-gaps/the-two-person-market/model/gate1-sensitivity.csv", "note": "Sensitivity around initial viability assumptions."},
+            {"label": "Gate 3 exchange scenario", "filename": "gate3-scenario.json", "href": "/assets/market-gaps/the-two-person-market/model/gate3-scenario.json", "note": "Machine-readable specialist-exchange example."},
+            {"label": "Gate 3 specialist versus generalist", "filename": "gate3-specialist-vs-generalist.csv", "href": "/assets/market-gaps/the-two-person-market/model/gate3-specialist-vs-generalist.csv", "note": "Comparison structure, not a demonstrated market result."},
+            {"label": "Gate 4 distance sensitivity", "filename": "gate4-distance-sensitivity.csv", "href": "/assets/market-gaps/the-two-person-market/model/gate4-distance-sensitivity.csv", "note": "How transport assumptions pressure the exchange model."},
+            {"label": "Gate 6 community demand floor", "filename": "gate6-community-demand-floor.csv", "href": "/assets/market-gaps/the-two-person-market/model/gate6-community-demand-floor.csv", "note": "Candidate demand-floor assumptions; not observed commitments."},
+            {"label": "Gate 7 catchment rings", "filename": "gate7-catchment-rings.json", "href": "/assets/market-gaps/the-two-person-market/model/gate7-catchment-rings.json", "note": "Illustrative catchment structure for a regional role."}
+          ]
+        },
+        {
+          "title": "Governance, livelihood and physical flow",
+          "description": "Working models for autonomy, reserves, skills, Friday flow and actual node constraints.",
+          "files": [
+            {"label": "Gate 8 governance matrix", "filename": "gate8-governance-matrix.csv", "href": "/assets/market-gaps/the-two-person-market/model/gate8-governance-matrix.csv", "note": "Separates operator autonomy, local stewardship and network roles."},
+            {"label": "Gate 10 reserve coverage", "filename": "gate10-reserve-coverage.csv", "href": "/assets/market-gaps/the-two-person-market/model/gate10-reserve-coverage.csv", "note": "Illustrative resilience and coverage calculations."},
+            {"label": "Gate 12 node schema", "filename": "gate12-node-schema.json", "href": "/assets/market-gaps/the-two-person-market/model/gate12-node-schema.json", "note": "Candidate identity and transfer fields for an independent node."},
+            {"label": "Gate 13 paid skill ladder", "filename": "gate13-paid-skill-ladder.csv", "href": "/assets/market-gaps/the-two-person-market/model/gate13-paid-skill-ladder.csv", "note": "Makes supplementary paid labour visible rather than hidden."},
+            {"label": "Gate 14 Friday flow", "filename": "gate14-friday-flow.json", "href": "/assets/market-gaps/the-two-person-market/model/gate14-friday-flow.json", "note": "Illustrative counter/service flow; not an observed operation."},
+            {"label": "Gate 15 flow constraints", "filename": "gate15-flow-constraints.csv", "href": "/assets/market-gaps/the-two-person-market/model/gate15-flow-constraints.csv", "note": "Constraints that can invalidate the small-node arrangement."},
+            {"label": "Gate 16 equipment stack", "filename": "gate16-equipment-stack.csv", "href": "/assets/market-gaps/the-two-person-market/model/gate16-equipment-stack.csv", "note": "Working equipment assumptions requiring site-specific recheck."}
+          ]
+        },
+        {
+          "title": "Network protocol and anti-capture tests",
+          "description": "The shared layer is useful only if it stays smaller than the businesses it coordinates.",
+          "files": [
+            {"label": "Gate 19 capability catalogue", "filename": "gate19-capability-catalogue.csv", "href": "/assets/market-gaps/the-two-person-market/model/gate19-capability-catalogue.csv", "note": "Candidate capabilities held by different independent nodes."},
+            {"label": "Gate 20 transfer contract", "filename": "gate20-transfer-contract.json", "href": "/assets/market-gaps/the-two-person-market/model/gate20-transfer-contract.json", "note": "Proposed ingredient-transfer structure, not a legal contract."},
+            {"label": "Gate 21 customer surface fields", "filename": "gate21-customer-surface-fields.csv", "href": "/assets/market-gaps/the-two-person-market/model/gate21-customer-surface-fields.csv", "note": "What a public product/lineage surface could expose."},
+            {"label": "Gate 22 common versus local", "filename": "gate22-common-vs-local.csv", "href": "/assets/market-gaps/the-two-person-market/model/gate22-common-vs-local.csv", "note": "Boundary between a shared identity and local operator control."},
+            {"label": "Gate 23 network minimum", "filename": "gate23-network-minimum.json", "href": "/assets/market-gaps/the-two-person-market/model/gate23-network-minimum.json", "note": "Minimum shared-layer cost/role hypothesis."},
+            {"label": "Gate 24 risk tiers", "filename": "gate24-risk-tiers.csv", "href": "/assets/market-gaps/the-two-person-market/model/gate24-risk-tiers.csv", "note": "Candidate evidence burden by claim risk."},
+            {"label": "Gate 25 abuse controls", "filename": "gate25-abuse-controls.csv", "href": "/assets/market-gaps/the-two-person-market/model/gate25-abuse-controls.csv", "note": "Candidate controls against arbitrary network power."}
+          ]
+        },
+        {
+          "title": "Research-gate index",
+          "description": "The full ZIP contains all 26 written gate notes and 69 model files. These notes make the main reasoning path readable before deeper inspection.",
+          "files": [
+            {"label": "Gate 0 precedent", "filename": "gate-0-precedent.md", "href": "/assets/market-gaps/the-two-person-market/research/gate-0-precedent.md", "note": "Starting precedent and architecture boundary."},
+            {"label": "Gate 1 one-node viability", "filename": "gate-1-one-node-viability.md", "href": "/assets/market-gaps/the-two-person-market/research/gate-1-one-node-viability.md", "note": "Initial viability reading and explicit failure conditions."},
+            {"label": "Gate 16 hard-candy equipment stack", "filename": "gate-16-real-hard-candy-equipment-stack.md", "href": "/assets/market-gaps/the-two-person-market/research/gate-16-real-hard-candy-equipment-stack.md", "note": "Equipment research input; not a procurement recommendation."},
+            {"label": "Gate 23 minimum network cost", "filename": "gate-23-minimum-network-cost.md", "href": "/assets/market-gaps/the-two-person-market/research/gate-23-minimum-network-cost.md", "note": "Tests whether the shared layer becomes the largest organisation."},
+            {"label": "Gate 26 end-to-end node story", "filename": "gate-26-end-to-end-node-story.md", "href": "/assets/market-gaps/the-two-person-market/research/gate-26-end-to-end-node-story.md", "note": "Internal coherence walk-through; not field validation."}
+          ]
+        }
+      ]
+    }
+  ]
+}
